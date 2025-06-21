@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Specifies the language of the document as English -->
+<head>
+    <link rel="stylesheet" href="./style.css"> <!-- Link to an external CSS stylesheet for styling the page -->
+    <title>Registration - FBS</title> <!-- Title of the webpage that appears in the browser tab -->
+</head>
+<body>
+    <div class="wrapper"> <!-- Main wrapper for the entire content of the page -->
+        <div class="container"> <!-- Container for header and navigation -->
+            <header>
+                <table width="100%" align="center" cellpadding="0" cellspacing="2"> <!-- Table for header layout -->
+                <tr>
+                <th width="20%"> <!-- Table header cell for logo -->
+                    <img src="fbs.png" alt="FBS LOGO" width="130" height="100"/> <!-- Logo image -->
+                </th>
+                <th colspan=4> <!-- Table header cell for the main title, spanning 4 columns -->
+                    <h1 style="color:white;">FBS - WORLD BEST ONLINE EBOOKS WEBSITE</h1> <!-- Main heading of the website -->
+                </th>
+                </tr>
+                </table>
+            </header>
+            <nav> <!-- Navigation section -->
+                <table width="100%" align="center" cellpadding="0" cellspacing="2"> <!-- Table for navigation links -->
+                <tbody align="center" style="font-weight:bold;font-size:18px;"> <!-- Centered text with bold font -->
+                <tr>
+                <td width="20%"><hr><a href="index.html">Home</a><hr></td> <!-- Link to Home page -->
+                <td width="20%"><hr><a href="login.html">Login</a><hr></td> <!-- Link to Login page -->
+                <td width="20%"><hr><a href="registration.html">Registration</a><hr></td> <!-- Link to Registration page -->
+                <td width="20%"><hr><a href="cart.html">Cart</a><hr></td> <!-- Link to Cart page -->
+                </tr>
+                </tbody>
+                </table>
+            </nav>
+        </div>
+        <div class="container1"> <!-- Main content area -->
+            <div class="sidebar1"></div> <!-- Placeholder for a left sidebar (currently empty) -->
+            <div class="container2"> <!-- Main content section -->
+                <main> <!-- Main content area -->
+                    <center><br> <!-- Centering the content and adding a line break -->
+                        <h3>Registration Form</h3> <!-- Subheading for the registration form -->
+                        <br/>
+                        <form name="f1"> <!-- Form for user registration, named "f1" -->
+                            <table cellpadding="1" align="center"> <!-- Table for form layout -->
+                                <tr>
+                                    <td>Name:*</td> <!-- Label for name input -->
+                                    <td><input type="text" name="username"> <!-- Input field for username -->
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Password:*</td> <!-- Label for password input -->
+                                    <td><input type="password" name="password"> <!-- Input field for password (hidden text) -->
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Email ID:*</td> <!-- Label for email input -->
+                                    <td><input type="text" name="email"> <!-- Input field for email -->
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Phone Number:*</td> <!-- Label for phone number input -->
+                                    <td><input type="text" name="phno"> <!-- Input field for phone number -->
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td valign="top">Gender:*</td> <!-- Label for gender selection -->
+                                    <td>
+                                        <input type="radio" name="radio" value="1">Male &nbsp;&nbsp; <!-- Radio button for Male -->
+                                        <input type="radio" name="radio" value="2">Female <!-- Radio button for Female -->
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td valign="top">Language Known:*</td> <!-- Label for language selection -->
+                                    <td>
+                                        <input type="checkbox" name="checkbox" value="English">English<br/> <!-- Checkbox for English -->
+                                        <input type="checkbox" name="checkbox" value="Telugu">Telugu<br> <!-- Checkbox for Telugu -->
+                                        <input type="checkbox" name="checkbox" value="Hindi">Hindi<br> <!-- Checkbox for Hindi -->
+                                        <input type="checkbox" name="checkbox" value="Tamil">Tamil <!-- Checkbox for Tamil -->
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td valign="

@@ -1,0 +1,78 @@
+/* General body styles */
+body {
+  font-family: monospace; /* Sets the font family for the entire body to monospace */
+}
+
+/* Main content area styles */
+main {
+  background-color: #efefef; /* Light gray background color for the main content area */
+  color: #330000; /* Dark red text color for the main content */
+  margin-left: 10px; /* Adds a left margin of 10 pixels */
+  height: 60vh; /* Sets the height of the main content area to 60% of the viewport height */
+}
+
+/* Header and footer styles */
+header, footer {
+  background-color: #000d57; /* Dark blue background color for header and footer */
+  color: #fff; /* White text color for header and footer */
+  padding: 1rem; /* Adds 1 rem of padding inside header and footer */
+  height: 50px; /* Sets a fixed height of 50 pixels for header and footer */
+}
+
+/* Margin and flex properties for header and nav */
+header, nav {
+  margin-bottom: 10px; /* Adds a bottom margin of 10 pixels */
+  flex-basis: 50%; /* Sets the base size of the flex item to 50% of the container */
+}
+
+/* Footer margin */
+footer {
+  margin-top: 10px; /* Adds a top margin of 10 pixels to the footer */
+}
+
+/* Navigation styles */
+nav {
+  background-color: #fff; /* White background color for the navigation bar */
+  color: #000; /* Black text color for the navigation links */
+  padding: 1rem; /* Adds 1 rem of padding inside the navigation bar */
+  height: 20px; /* Sets a fixed height of 20 pixels for the navigation bar */
+}
+
+/* Sidebar styles */
+.sidebar1, .sidebar2 {
+  flex-basis: 10%; /* Sets the base size of the sidebars to 10% of the container */
+  background-color: #fff; /* White background color for the sidebars */
+  color: #000; /* Black text color for the sidebars */
+}
+
+/* Additional margin for the second sidebar */
+.sidebar2 {
+  margin-left: 10px; /* Adds a left margin of 10 pixels to the second sidebar */
+}
+
+/* Container styles for layout */
+.container1 {
+  display: flex; /* Enables flexbox layout for the first container */
+}
+
+/* Main content container styles */
+.container2 {
+  display: flex; /* Enables flexbox layout for the second container */
+  flex-direction: column; /* Arranges child elements in a column */
+  flex: 1; /* Allows this container to grow and fill available space */
+}
+
+/* Flex properties for layout elements */
+header, nav, main, .sidebar1, .sidebar2, footer {
+  display: flex; /* Enables flexbox layout for these elements */
+  align-items: center; /* Vertically centers items within the flex container */
+  justify-content: center; /* Horizontally centers items within the flex container */
+  border-radius: 10px; /* Rounds the corners of the elements with a radius of 10 pixels */
+}
+
+/* Wrapper styles for overall layout */
+.wrapper {
+  display: flex; /* Enables flexbox layout for the wrapper */
+  flex-direction: column; /* Arranges child elements in a column */
+  font-weight: 600; /* Sets the font weight to bold (600) for the entire wrapper */
+}

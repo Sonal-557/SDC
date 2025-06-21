@@ -1,0 +1,91 @@
+import java.sql.*;
+import java.util.Scanner;
+
+public class InsertData {
+
+    /**
+     * This is a simple Java program that connects to a MySQL database and inserts data into the `student` table.
+     * The program prompts the user to input a student ID, name, and address, and then inserts the data into the table.
+     * The connection is made using JDBC (Java Database Connectivity).
+     *
+     * Program Flow:
+     * 1. Establish a connection to the MySQL database.
+     * 2. Accept user input for student ID, name, and address.
+     * 3. Insert the data into the `student` table using a SQL INSERT query.
+     * 4. Output a success message if the insertion is successful, or an error message if an exception occurs.
+     *
+     * Prerequisites:
+     * - Ensure MySQL is installed and running on the local machine (localhost).
+     * - A database named `mydb` must exist in MySQL, along with a `student` table.
+     * - The table should have at least three columns: `id`, `name`, and `address`.
+     * 
+     * Sample `student` table schema (in MySQL):
+     * 
+     * CREATE TABLE student (
+     *   id INT PRIMARY KEY,
+     *   name VARCHAR(100),
+     *   address VARCHAR(255)
+     * );
+     * 
+     * The MySQL JDBC Driver (Connector/J) should be included in the classpath for the program to function correctly.
+     *
+     * Connection URL:
+     * - The connection string used is: "jdbc:mysql://localhost/mydb"
+     * - The username used is: "root"
+     * - The password used is: "ace123"
+     *
+     * Errors & Troubleshooting:
+     * - Ensure MySQL is running on localhost and accessible.
+     * - Verify the database and table exist in MySQL with the expected schema.
+     * - If a timeout or connection error occurs, check if the MySQL server is running and accessible.
+     * - Ensure the necessary JDBC driver is included in the project (e.g., MySQL Connector/J).
+     * 
+     * Example output:
+     * 
+     * Inserting Data into student table:
+     * ________________________________________
+     * Enter student id: 101
+     * Enter student name: John Doe
+     * Enter student address: 1234 Elm Street
+     * Data inserted successfully into student table
+     *
+     * @param args Command-line arguments (not used in this program)
+     */
+    public static void main(String[] args) {
+        try (
+            // Establish a connection to the MySQL database
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/mydb", "root", "ace123");
+            
+            // Create a Statement object to execute the SQL query
+            Statement s = con.createStatement()
+        ) {
+            // Create a Scanner object to read user input from the console
+            Scanner sc = new Scanner(System.in);
+            
+            // Display message for the user to understand the operation
+            System.out.println("Inserting Data into student table:");
+            System.out.println("________________________________________");
+            
+            // Accept user input for student ID, name, and address
+            System.out.print("Enter student id: ");
+            int sid = sc.nextInt();  // Read the student ID
+            System.out.print("Enter student name: ");
+            String sname = sc.next();  // Read the student name
+            System.out.print("Enter student address: ");
+            String saddr = sc.next();  // Read the student address
+
+            // Construct the SQL INSERT query to insert data into the student table
+            String insertQuery = "INSERT INTO student VALUES(" + sid + ",'" + sname + "','" + saddr + "')";
+            
+            // Execute the query using the Statement object
+            s.executeUpdate(insertQuery);
+            
+            // Display a success message after data is inserted
+            System.out.println("Data inserted successfully into student table");
+            
+        } catch (SQLException err) {
+            // Handle SQL errors by printing the error message
+            System.out.println("ERROR: " + err);
+        }
+    }
+}

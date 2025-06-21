@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Specifies the language of the document as English -->
+<head>
+    <link rel="stylesheet" href="./style.css"> <!-- Link to an external CSS stylesheet for styling the page -->
+    <title>Login - FBS</title> <!-- Title of the webpage that appears in the browser tab -->
+</head>
+<body>
+    <div class="wrapper"> <!-- Main wrapper for the entire content of the page -->
+        <div class="container"> <!-- Container for header and navigation -->
+            <header>
+                <table width="100%" align="center" cellpadding="0" cellspacing="2"> <!-- Table for header layout -->
+                <tr>
+                <th width="20%"> <!-- Table header cell for logo -->
+                    <img src="fbs.png" alt="FBS LOGO" width="130" height="100"/> <!-- Logo image -->
+                </th>
+                <th colspan=4> <!-- Table header cell for the main title, spanning 4 columns -->
+                    <h1 style="color:white;">FBS - WORLD BEST ONLINE EBOOKS WEBSITE</h1> <!-- Main heading of the website -->
+                </th>
+                </tr>
+                </table>
+            </header>
+            <nav> <!-- Navigation section -->
+                <table width="100%" align="center" cellpadding="0" cellspacing="2"> <!-- Table for navigation links -->
+                <tbody align="center" style="font-weight:bold;font-size:18px;"> <!-- Centered text with bold font -->
+                <tr>
+                <td width="20%"><hr><a href="index.html">Home</a><hr></td> <!-- Link to Home page -->
+                <td width="20%"><hr><a href="login.html">Login</a><hr></td> <!-- Link to Login page -->
+                <td width="20%"><hr><a href="registration.html">Registration</a><hr></td> <!-- Link to Registration page -->
+                <td width="20%"><hr><a href="cart.html">Cart</a><hr></td> <!-- Link to Cart page -->
+                </tr>
+                </tbody>
+                </table>
+            </nav>
+        </div>
+        <div class="container1"> <!-- Main content area -->
+            <div class="sidebar1"></div> <!-- Placeholder for a left sidebar (currently empty) -->
+            <div class="container2"> <!-- Main content section -->
+                <main> <!-- Main content area -->
+                    <center><br> <!-- Centering the content and adding a line break -->
+                    <h3> Login Details</h3> <br/> <!-- Subheading for the login form -->
+                        <form name="f1"> <!-- Form for user login, named "f1" -->
+                            <table width="100%" align="center"> <!-- Table for form layout -->
+                            <tr>
+                            <td> User Name : </td> <!-- Label for username input -->
+                            <td> <input type="text" name="username"> <!-- Input field for username -->
+                            </td>
+                            </tr>
+                            <tr><td><br></td></tr> <!-- Extra line break for spacing -->
+                            <tr>
+                            <td> Password : </td> <!-- Label for password input -->
+                            <td> <input type="password" name="password"> <!-- Input field for password (hidden text) -->
+                            </td>
+                            </tr>
+                            <tr><td><br></td></tr> <!-- Extra line break for spacing -->
+                            <tr>
+                            <td></td>
+                            <td>
+                                <input type="submit" value="SUBMIT"> <!-- Submit button for the form -->
+                                <input type="reset" value="RESET"> <!-- Reset button to clear the form -->
+                            </td>
+                            </tr>
+                            </table>
+                        </form>
+                    </center>
+                </main>
+            </div>
+            <div class="sidebar2"></div> <!-- Placeholder for a right sidebar (currently empty) -->
+        </div> 
+        <footer> <!-- Footer section -->
+            <font color="white">(C) 2024 All rights reserved by FBS ebooks</font> <!-- Copyright information -->
+        </footer>
+    </div>
+</body>
+</html>

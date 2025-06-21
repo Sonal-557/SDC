@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Specifies the language of the document as English -->
+<head>
+    <link rel="stylesheet" href="./style.css"> <!-- Link to an external CSS stylesheet for styling the page -->
+    <title>Cart - FBS</title> <!-- Title of the webpage that appears in the browser tab -->
+</head>
+<body>
+    <div class="wrapper"> <!-- Main wrapper for the entire content of the page -->
+        <div class="container"> <!-- Container for header and navigation -->
+            <header>
+                <table width="100%" align="center" cellpadding="0" cellspacing="2"> <!-- Table for header layout -->
+                <tr>
+                <th width="20%"> <!-- Table header cell for logo -->
+                    <img src="fbs.png" alt="FBS LOGO" width="130" height="100"/> <!-- Logo image -->
+                </th>
+                <th colspan=4> <!-- Table header cell for the main title, spanning 4 columns -->
+                    <h1 style="color:white;">FBS - WORLD BEST ONLINE EBOOKS WEBSITE</h1> <!-- Main heading of the website -->
+                </th>
+                </tr>
+                </table>
+            </header>
+            <nav> <!-- Navigation section -->
+                <table width="100%" align="center" cellpadding="0" cellspacing="2"> <!-- Table for navigation links -->
+                <tbody align="center" style="font-weight:bold;font-size:18px;"> <!-- Centered text with bold font -->
+                <tr>
+                <td width="20%"><hr><a href="index.html">Home</a><hr></td> <!-- Link to Home page -->
+                <td width="20%"><hr><a href="login.html">Login</a><hr></td> <!-- Link to Login page -->
+                <td width="20%"><hr><a href="registration.html">Registration</a><hr></td> <!-- Link to Registration page -->
+                <td width="20%"><hr><a href="cart.html">Cart</a><hr></td> <!-- Link to Cart page -->
+                </tr>
+                </tbody>
+                </table>
+            </nav>
+        </div>
+        <div class="container1"> <!-- Main content area -->
+            <div class="sidebar1"></div> <!-- Placeholder for a left sidebar (currently empty) -->
+            <div class="container2"> <!-- Main content section -->
+                <main> <!-- Main content area -->
+                    <center> <!-- Centering the content -->
+                    <h3>Cart</h3> <!-- Subheading for the cart section -->
+                        <table width="100%" align="center"> <!-- Table for displaying cart items -->
+                        <tbody>
+                        <tr>
+                        <th width="40%"><hr>Book Name<hr></th> <!-- Column header for book names -->
+                        <th width="20%"><hr>Price<hr></th> <!-- Column header for prices -->
+                        <th width="20%"><hr>Quantity<hr></th> <!-- Column header for quantity -->
+                        <th width="20%"><hr>Amount<hr></th> <!-- Column header for total amount -->
+                        </tr>
+                        </tbody>
+                        <tbody align="center"> <!-- Centered content for the cart items -->
+                        <tr> 
+                            <td>Java Programming</td> <!-- Book name -->
+                            <td>Rs. 2300/-</td> <!-- Price of the book -->
+                            <td>2</td> <!-- Quantity of the book -->
+                            <td>Rs. 4600/-</td> <!-- Total amount for this book (Price * Quantity) -->
+                        </tr>
+                        <tr>
+                            <td>Web Technologies</td> <!-- Book name -->
+                            <td>Rs. 3000/-</td> <!-- Price of the book -->
+                            <td>1</td> <!-- Quantity of the book -->
+                            <td>Rs. 3000/-</td> <!-- Total amount for this book -->
+                        </tr>
+                        <tr>
+                            <td></td> <!-- Empty cell for spacing -->
+                            <td><hr><font color="#996600">Total Amount:</font><hr></td> <!-- Total amount label -->
+                            <td><hr>3<hr></td> <!-- Total quantity of items in the cart -->
+                            <td><hr>Rs. 7600/-<hr></td> <!-- Total amount for all items in the cart -->
+                        </tr>
+                        </tbody>
+                        </table>
+                    </center>
+                </main>
+            </div>
+            <div class="sidebar2"></div> <!-- Placeholder for a right sidebar (currently empty) -->
+        </div> 
+        <footer> <!-- Footer section -->
+            <font color="white">(C) 2024 All rights reserved by FBS ebooks</

@@ -8,3 +8,4 @@ The app checks every 30 seconds for upcoming tasks and shows a browser notificat
 It also plays a sound alert when a task is about to be due.
 Tasks overdue by more than 60 seconds are auto-removed from the list.
 The UI is styled using CSS for a clean, modern look with responsive layout.
+![image](https://github.com/user-attachments/assets/80ab6d66-0bdb-417c-bd01-e6dc501f1f31)

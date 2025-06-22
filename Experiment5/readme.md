@@ -141,3 +141,4 @@ Experiment5/
 ---
 
 *This experiment helps you understand how to structure, validate, and manage XML data for applications like a bookstore
+![WhatsApp Image 2025-06-11 at 08 35 47_78498015](https://github.com/user-attachments/assets/25ef92be-a657-4734-b988-78fb5ca3b9f2)

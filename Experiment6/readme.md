@@ -74,3 +74,4 @@ Custom Event Triggered: { message: 'Hello from custom event!' }
 ---
 
 *This experiment helps you understand the basics of Node.js core modules and how to use them in a simple application.*
+![WhatsApp Image 2025-06-11 at 08 37 19_e18c4f51](https://github.com/user-attachments/assets/73ad6f31-6a9b-4b47-bf30-0e711baa3087)

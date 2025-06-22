@@ -39,3 +39,6 @@ All data storage and logic are handled in the browser using JavaScript and local
 ##Reusable + Extendable##
 Easy to add features like edit, search, or sort.
 Works offline and doesn't require server deployment for basic use.
+![WhatsApp Image 2025-06-22 at 18 46 35_741fe736](https://github.com/user-attachments/assets/11b289ff-2d21-474c-bddc-e18ee0f9e220)
+
+![image](https://github.com/user-attachments/assets/94143a1f-8d43-49c9-b0b9-055288ec2992)

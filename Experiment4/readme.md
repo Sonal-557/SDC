@@ -166,3 +166,7 @@ CREATE TABLE student (
 ---
 
 *This experiment demonstrates practical database operations in Java and is suitable for students learning JDBC and SQL basics.*
+![WhatsApp Image 2025-06-11 at 08 32 52_6fc82732](https://github.com/user-attachments/assets/9387fbbc-85e8-4964-a25d-f7c95cb70aef)
+![WhatsApp Image 2025-06-11 at 08 32 52_5f5a664f](https://github.com/user-attachments/assets/6ff074b8-fb06-46e9-93f0-a7b8bffcc8e7)
+![WhatsApp Image 2025-06-11 at 08 32 52_63949473](https://github.com/user-attachments/assets/db882ac5-2d3c-4548-b2d4-882b385e9f0d)
+![WhatsApp Image 2025-06-11 at 08 32 53_585ae9b2](https://github.com/user-attachments/assets/deb9f027-81cc-4b53-8cc5-a625ef62faec)

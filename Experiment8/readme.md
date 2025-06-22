@@ -82,3 +82,4 @@ Experiment8/
 ---
 
 *This experiment helps you understand how to build a simple web server, serve static files, and consume third-party APIs using Node.js and Express.*
+![image](https://github.com/user-attachments/assets/9f5d654b-23eb-405b-9fba-2967af795cf6)

@@ -1,4 +1,4 @@
-![WhatsApp Image 2025-06-11 at 08 24 10_1049ddfd](https://github.com/user-attachments/assets/457c8725-f1d0-4d82-82d2-70ac287a1680)# FBS Shopping Cart Website
+# FBS Shopping Cart Website
 
 This is a simple online eBooks shopping cart website called **FBS**. It is built using HTML and CSS.
 
@@ -30,4 +30,5 @@ This is a simple online eBooks shopping cart website called **FBS**. It is built
 ---
 
 (C) 2024 All rights reserved by FBS ebooks
-![image](https://github.com/user-attachments/assets/e2ad5bfb-cb62-4381-8cd8-e3974ff5a35f)
+![WhatsApp Image 2025-06-11 at 08 24 10_4f065bff](https://github.com/user-attachments/assets/22b418c8-de5a-4aea-a47b-51b0dff2e4f3)
+

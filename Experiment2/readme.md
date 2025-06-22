@@ -27,3 +27,4 @@ This project contains a simple HTML registration form with JavaScript validation
 - Gender selection is mandatory.
 
 Feel free to modify the HTML and JavaScript code as needed to suit your requirements.
+![image](https://github.com/user-attachments/assets/e9e4408c-71fa-45fe-9680-374d2e0bd345)

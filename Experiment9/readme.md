@@ -1,76 +1,77 @@
-# Experiment 6: Node.js Core Modules Demo
+# Experiment 9: Simple Shopping Cart Web Application
 
-This experiment demonstrates the use of core Node.js modules such as `http`, `os`, `path`, and `events` by creating a simple HTTP server and displaying system information.
+This experiment demonstrates a basic shopping cart web application using HTML and Bootstrap. The app includes a product catalog, user registration and login forms, and a cart page. All data is static and handled on the client side.
 
 ---
 
-## File Structure
+## Folder Structure
 
 ```
-Experiment6/
-└── server.js
+Experiment9/
+├── index.html      # Product catalog (main page)
+├── cart.html       # Shopping cart page
+├── login.html      # User login form
+├── register.html   # User registration form
 ```
 
 ---
 
-## What This Project Does
+## Features
 
-- **Creates a basic HTTP server** that responds with "Hello, World!" on every request.
-- **Displays operating system information** (type, platform, architecture, CPU cores) in the console.
-- **Shows the current working directory** using Node.js process features.
-- **Uses the `path` module** to join directory paths and prints the result.
-- **Demonstrates the `events` module** by emitting and handling a custom event.
+- **Product Catalog:**  
+  - View a list of products with images, names, and prices.
+  - "Add to Cart" buttons for each product (static, no backend logic).
 
----
+- **User Registration:**  
+  - Form to register a new user with username, email, and password fields.
 
-## How to Run
+- **User Login:**  
+  - Form to log in with username and password.
 
-1. **Open a terminal** and navigate to the project directory:
-   ```sh
-   cd C:\Users\sonam\OneDrive\Desktop\SDC\Experiment6
-   ```
+- **Shopping Cart:**  
+  - Displays products added to the cart (static example).
+  - Shows product name, price, quantity, and total.
+  - "Checkout" button (no backend logic).
 
-2. **Run the server:**
-   ```sh
-   node server.js
-   ```
+- **Navigation Bar:**  
+  - Links to Login, Register, and Cart pages from the catalog.
 
-3. **Open your browser** and go to [http://127.0.0.1:3000](http://127.0.0.1:3000) to see the server response.
-
-4. **Check the terminal** for OS information, path operations, and custom event output.
+- **Responsive Design:**  
+  - Uses [Bootstrap 5](https://getbootstrap.com/) for styling and layout.
 
 ---
 
-## Key Concepts Demonstrated
+## How to Use
 
-- **http module:** Creating a web server.
-- **os module:** Fetching system information.
-- **path module:** Handling and joining file paths.
-- **events module:** Creating and handling custom events in Node.js.
+1. **Open `index.html` in your web browser** to view the product catalog.
+2. Use the navigation bar to go to the Login, Register, or Cart pages.
+3. The forms and cart are static and do not store or process data.
 
 ---
 
-## Example Output
+## Expected Output Screenshot
 
-When you run the server, you will see output similar to:
+![Expected Output Screenshot](https://i.imgur.com/4QyQw7F.png)
 
-```
-Server running at http://127.0.0.1:3000/
-OS Type: Windows_NT
-OS Platform: win32
-OS Architecture: x64
-CPU Cores: 4
-Current Working Directory: C:\Users\sonam\OneDrive\Desktop\SDC\Experiment6
-Joined Path: C:\Users\sonam\OneDrive\Desktop\SDC\Experiment6\public\images
-Custom Event Triggered: { message: 'Hello from custom event!' }
-```
+*Sample: Product catalog with navigation bar, product cards, and Bootstrap styling.*
+
+---
+
+## Notes
+
+- This project is for demonstration and learning purposes only.
+- No backend or persistent storage is implemented.
+- All pages are static and do not interact with each other.
 
 ---
 
 ## Requirements
 
-- [Node.js](https://nodejs.org/) installed on your system.
+- Any modern web browser (Chrome, Firefox, Edge, etc.)
+- No installation or server required.
 
 ---
 
-*This experiment helps you understand the basics of Node.js core modules and how to use them in a simple application.*
+*This experiment helps you understand the structure of a basic e-commerce front-end using
+![image](https://github.com/user-attachments/assets/37599191-7c92-4738-a96a-ca8879d188c2)
+![image](https://github.com/user-attachments/assets/04d58f45-00af-47b9-ba90-f91dc278dbe4)
